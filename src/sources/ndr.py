@@ -58,7 +58,7 @@ class NDR(Scraper):
                 url = f"https://www.ndr.de/public/teletext/{page_index}_{sub_page_index+1:02}.htm"
                 response = self.get_html(url)
                 if response.status_code == 200:
-                    yield page_index, sub_page_index+1, response.text
+                    yield page_index, sub_page_index+1, response.content.decode("utf-8")
 
     def _get_pages(self) -> Dict[int, int]:
         text = self.get_html("https://www.ndr.de/public/teletext/pages.js").text

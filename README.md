@@ -29,7 +29,7 @@ delimited json file for each station.
 
 - `ϕ`: Thanks to [@fabianswebworld](https://github.com/fabianswebworld) :)
 - `ϰ`: NDR officially stopped serving teletext pages on the website in beginning of 2025,
-  but the internal page URLs are still working. Though, there is some bad encoding there!
+  but the internal page URLs are still working. Though, there is some bad encoding in the snapshots for quite a period!
 
 ### :star: view it :star:
 
