@@ -42,7 +42,7 @@ class ZDFBase(Scraper):
 
             date = response.text
             num_sub_pages = 1
-            is_empty_page = date == "-1"
+            is_empty_page = date in ("0", "-1")
 
             if is_empty_page:
                 continue
