@@ -157,7 +157,8 @@ Oh boy, look what else exists on the web:
 - https://www.teletextart.com/
 - https://galax.xyz/TELETEXT/
 - https://zxnet.co.uk/teletext/viewer/
-
+- https://github.com/mojoaxel/awesome-teletext
+- 
 
 ## TODO
 
