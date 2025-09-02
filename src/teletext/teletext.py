@@ -42,12 +42,15 @@ class Teletext:
         scrapers = dict()
 
         cur_page = None
+        error_printed = False
         for line_idx, line in enumerate(lines):
 
             try:
                 line = json.loads(line)
             except:
-                print(f"ERROR in line #{line_idx} '{line}'")
+                if not error_printed:
+                    print(f"ERROR in {file.name}, line #{line_idx} '{line}'")
+                    error_printed = True
                 if ignore_errors and not line.startswith("{"):
                     continue
                 raise
