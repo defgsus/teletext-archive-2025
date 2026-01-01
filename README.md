@@ -2,7 +2,7 @@
 
 Or *videotext*, as we used to call it. 
 
-[![Scraper](https://github.com/defgsus/teletext-archive-2025/actions/workflows/scraper.yml/badge.svg)](https://github.com/defgsus/teletext-archive-2025/actions/workflows/scraper.yml)
+[![Scraper](https://github.com/defgsus/teletext-archive-2025/actions/workflows/scraper.yml/badge.svg)](https://github.com/defgsus/teletext-archive-2025/actions/workflows/scraper.yml) (continued in [github.com/defgsus/teletext-archive-2026](https://github.com/defgsus/teletext-archive-2026))
 
 This repo uses github actions to scrape teletext pages from 
 web sources and converts the html into easy digestible json/unicode files. 
